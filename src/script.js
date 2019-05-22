@@ -2,14 +2,14 @@ disk = {
     
     get_data : function(){
         
-        airscarp.plugin.shell.get("disk-usage", function(x){
+        airscarp.plugin.shell.get("disk-usage.list", function(x){
             
             if(!x.s){
                 airscarp.error("Something went wrong!");
                 return false;
             }
             
-            var data = x.data["disk-usage"];
+            var data = x.data["disk-usage.list"];
             disk.show_table(data);
         });
     },

@@ -4,5 +4,5 @@
     "menu"        : "Disk Usage",
     "alias"       : "disk-usage",
     "os"          : ["ubuntu", "centos", "rhel", "debian", "cloudlinux", "fedora"],
-    "permissions" : ["disk-usage"]
+    "permissions" : ["disk-usage.list"]
 }
