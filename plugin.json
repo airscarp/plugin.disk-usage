@@ -1,0 +1,8 @@
+{
+    "version"     : "1.0.0",
+    "name"        : "Disk Usage",
+    "menu"        : "Disk Usage",
+    "alias"       : "disk-usage",
+    "os"          : ["ubuntu", "centos", "rhel", "debian", "cloudlinux", "fedora"],
+    "permissions" : ["send-command", "disk-usage"]
+}

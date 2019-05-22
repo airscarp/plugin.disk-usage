@@ -1,0 +1,32 @@
+<div class="disk-usage">
+
+    <header class="sec desc">
+        <span class="content">
+            <span>Disk Usage</span>
+        </span>
+    </header>
+
+    <div class="card card-yellow">
+        <div class="table-responsive">
+            <table class="table table-hover" id="disk-usage-table">
+                <thead>
+                    <tr>
+                        <th class="header">Mounted</th>
+                        <th class="header">Usage</th>
+                        <th class="header">Filesystem</th>
+                        <th class="header">Size</th>
+                        <th class="header">Used</th>
+                        <th class="header">Available</th>
+                        <th class="header">Use</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    
+</div><!-- Disk Space -->
+
+<script type="text/javascript">
+    airscarp.ready(function(){ disk.get_data() });
+</script>
