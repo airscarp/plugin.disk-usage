@@ -9,7 +9,7 @@ disk = {
                 return false;
             }
             
-            var data = x.data["disk_usage"];
+            var data = x.data["disk-usage"];
             disk.show_table(data);
         });
     },
